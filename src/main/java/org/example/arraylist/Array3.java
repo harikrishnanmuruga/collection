@@ -10,7 +10,7 @@ public class Array3 {
         alist.add(1);
         alist.add(5);
         alist.add(8);
-        //alist.add(10);
+//        alist.add(10);
 
 
         Iterator <Integer>iterate = alist.iterator();
