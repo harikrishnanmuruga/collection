@@ -1,6 +1,5 @@
 package org.example.treeset;
 
-import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Test1 {
@@ -21,6 +20,7 @@ public class Test1 {
         System.out.println("Using higher: " + number.higher(9));
         System.out.println("Using higher: " + number.higher(4));
         System.out.println("Using higher: " + number.higher(14));
+        System.out.println("higher: "+number.higher(8));
 
         System.out.println("list of the element : " +number);
 
@@ -28,6 +28,7 @@ public class Test1 {
         System.out.println("Using lower: " + number.lower(7));
         System.out.println("Using lower: " + number.lower(3));
         System.out.println("Using lower: " + number.lower(15));
+        System.out.println("lower: "+number.lower(12));
 
         System.out.println("list of the element : " +number);
         // Using ceiling()
